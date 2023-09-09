@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Minha Página Responsiva</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      html,
+      body {
+        height: 100%;
+      }
+      body {
+        display: flex;
+        flex-direction: column;
+      }
+      .wrapper {
+        flex: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="bg-dark text-light text-center py-4">
+      <h1>Minha Página Responsiva</h1>
+      <nav>
+        <ul class="list-inline">
+          <li class="list-inline-item"><a href="#">Início</a></li>
+          <li class="list-inline-item"><a href="#">Sobre</a></li>
+          <li class="list-inline-item"><a href="#">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="container mt-4 wrapper">
+      <div class="row">
+        <div class="col-lg-4 col-md-6">
+          <div class="bg-primary text-light p-3">
+            <h2>Seção 1</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut
+              gravida leo.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="bg-success text-light p-3">
+            <h2>Seção 2</h2>
+            <p>
+              Nulla facilisi. Nullam vitae efficitur odio. In ullamcorper urna
+              id neque convallis.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="bg-warning text-dark p-3">
+            <h2>Seção 3</h2>
+            <p>
+              Curabitur a sapien eget quam malesuada consectetur. Sed non quam
+              vel libero.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="bg-dark text-light text-center py-2">&copy; 2023</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
